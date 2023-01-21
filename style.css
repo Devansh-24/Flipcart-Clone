@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+    --main-bg-color: #0070ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+nav ul {
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+    padding: 0 12px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+    color: black;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 56px 0 56px;
+    padding: 0 12px;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: white;
+    background-color: #0070ff;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.slider {
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card {
+    background-color: whitesmoke;
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    min-height: calc(100vh - 65px - 12vh);
+}
+
+footer {
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.my-2 {
+    margin: 26px 0;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.my-2 {
+    margin: 5px 0;
+    font-weight: bold;
+}
